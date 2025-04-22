@@ -1,0 +1,18 @@
+html{
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: linear-gradient(135deg, #e0f7fa, #fce4ec);
+}
+
+header{
+    margin-top: 50px;
+    color: #343a40;
+}
+
+main{
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

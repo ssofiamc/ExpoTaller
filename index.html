@@ -9,26 +9,51 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         
     <!--LINK CSS-->
+    <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/main.css">
 
     <title>Exposición</title>
 </head>
+
 <body>
+    <!--Titulo-->
     <header>
-        <h1 class="encabezado">Responsive + Nomenclatura</h1>
-            <div class="contenedorEncabezado">
-                <div class="row">
-                     <div class="col">
-                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                            <button class="btnEncabezado1" onclick="location.href='#'">Inicio</button>
-                            <button class="btnEncabezado" onclick="location.href='html/responsive.html'">Responsive Design</button>
-                            <button class="btnEncabezado" onclick="location.href='html/nomenclatura.html'">Nomenclatura Clases</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="text-center">
+            <h1 class="display-5 fw-bold">Explorando el Diseño Web Moderno</h1>
+            <br>
+            <p class="lead">Selecciona un tema para comenzar la exploración</p>
+          </div>
     </header>
-    <p>Presentación del tema</p>
+
+    <!-- Cards -->
+    <main>
+        <div class="container">
+    <div class="row justify-content-center">
+      
+      <!-- Tema 1 -->
+      <div class="col-md-5">
+        <div class="card card-color1 h-100 shadow" onclick="location.href='html/responsive.html'" style="cursor: pointer;">
+          <div class="card-body">
+            <h3 class="card-titulo1">Responsive Design con CSS moderno</h3>
+            <p>Aprende a construir interfaces adaptativas utilizando técnicas modernas de diseño con CSS.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tema 2 -->
+      <div class="col-md-5">
+        <div class="card card-color2 h-100 shadow" onclick="location.href='html/nomenclatura.html'" style="cursor: pointer;">
+          <div class="card-body">
+            <h3 class="card-titulo2">Buenas prácticas en nomenclatura de clases</h3>
+            <p>Descubre convenciones útiles como camelCase, kebab-case y demás, así como evitar colisiones y mantener la claridad de tu código.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    </main>
+    
     <!--BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

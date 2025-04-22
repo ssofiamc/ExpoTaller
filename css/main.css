@@ -1,62 +1,23 @@
-.encabezado{
-    background-color: #328E6E;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding: 10px;
-    font-size: 50px;
-    width: 100%;
-    margin: 0;
+.card {
+    transition: 0.3s ease;
 }
 
-.contenedorEncabezado{
-    width: 100%;
-    padding: 5px;
-    background-color: #E1EEBC;
-    margin: 0;
+.card:hover {
+   transform: scale(1.03);
 }
 
-.btn-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.card-titulo1{
+    color: rgb(47, 120, 142);
 }
 
-.btnEncabezado1{
-    background-color: #328E6E;
-    color: #E1EEBC;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 1000;
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    margin-left: 20px;
-    margin-right: 40px;
-    border-radius: 5px;
+.card-titulo2{
+    color: rgb(143, 57, 96);
 }
 
-.btnEncabezado{
-    background-color: #E1EEBC;
-    color: #328E6E;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 1000;
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    margin-left: 20px;
-    margin-right: 40px;
+.card-color1{
+    background-color: rgba(189, 219, 255, 0.325);
 }
 
-.btnEncabezado:hover{
-    background-color: #328E6E;
-    color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 1000;
-    text-align: center;
-    padding: 5px;
-    font-size: 20px;
-    border: none;
-    border-radius: 5px;
+.card-color2{
+    background-color: rgba(255, 209, 225, 0.505);
 }

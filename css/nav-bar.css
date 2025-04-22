@@ -1,0 +1,48 @@
+.contenedorEncabezado{
+    width: 100%;
+    padding: 10px;
+    background-color: #effdffbb;
+    margin: 0;
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnEncabezado1{
+    background-color: #006f80;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 5px;
+}
+
+.btnEncabezado{
+    background-color: #effdffbb;
+    color: #00000088;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    margin-left: 20px;
+    margin-right: 40px;
+    border-radius: 5px;
+
+}
+
+.btnEncabezado:hover{
+    background-color: #27c8e9;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
