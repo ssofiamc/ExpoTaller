@@ -11,6 +11,7 @@
     <!--LINK CSS-->
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/nomenclatura.css">
 
     <title>Nomenclatura</title>
 </head>
@@ -33,17 +34,170 @@
     <!--Titulo-->
     <header>
         <div class="container text-center titulo">
-            <h1 class="display-5 fw-bold">Explorando el Diseño Web Moderno</h1>
+            <h1 class="display-5 fw-bold">Buenas prácticas en nomenclatura de clases</h1>
           </div>
     </header>
 
     <!--contenido-->
     <main>
-        <p></p>
+        <h2 class="fw-bold">¿Qué es?</h2>
+        <p>Las buenas prácticas en nomenclatura de clases son formas recomendables para nombrar clases permitiendo tener un
+            código limpio, entendible diguiendo un patrón para el lector e incluso brindando información sobre la función 
+            de la clase.
+        </p>
+
+        <br>
+
+        <h2 class="fw-bold">Convenciones útiles</h2>
+
+            <!--Cards convenciones-->
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-4 g-4">
+              
+                <!--Card1-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Camel case</h5>
+                    <p class="card-text">Se caracteriza por tener la primera letra en minúscula y cada palabra siguiente 
+                      empezando en mayúscula: 
+                    </p>
+                      <div class="recuadro">
+                        <code>
+                          mensajeDeError
+                          <br>
+                          obtenerResultado
+                          <br>
+                          edadDelUsuario
+                        </code>
+                      </div>
+                      <br>
+                    <p class="card-text">Es usada en #hashTags, variables, constantes, funciones y 
+                      métodos en varios lenguajes de programación como PHP, Java, JavaScript.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          
+                <!--Card2-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Pascal case</h5>
+                    <p class="card-text"> También conocido como "upper camel case" o "capital case",
+                      se caracteriza por tener todas las primeras letras de cada palabra en mayúscula:
+                    </p>
+                      <div class="recuadro">
+                        <code>
+                          MensajeDeError
+                          <br>
+                          ObtenerResultado
+                          <br>
+                          EdadDelUsuario
+                        </code>
+                      </div>
+                      <br>
+                    <p class="card-text">Es recomendable usarla para clases ya sea para Java, JavaScript, etc.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+                <!--Card3-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Snake case</h5>
+                    <p class="card-text"> También conocido como "underscore case", se caracteriza por poner guión bajo
+                      para separar las palabras, cuando las palabras están en mayúscula, se le conoce como "screaming snake case":
+                    </p>
+                      <div class="recuadro">
+                        <code>
+                          mensaje_de_error
+                          <br>
+                          obtener_resultado
+                          <br>
+                          EDAD_DEL_USUARIO
+                        </code>
+                      </div>
+                      <br>
+                    <p class="card-text">Es recomendable usar SCREAMING_SNAKE_CASE para constantes.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          
+                <!--Card4-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Kebab case</h5>
+                    <p class="card-text">Se caracteriza por el uso del guión seguido de cada palabra, cuando
+                      las palabras están en mayúsculas, se le llama "screaming kebab case":
+                    </p>
+                      <div class="recuadro">
+                        <code>
+                          mensaje-de-error
+                          <br>
+                          obtener-resultado
+                          <br>
+                          EDAD-DEL-USUARIO
+                        </code>
+                      </div>
+                      <br>
+                    <p class="card-text">Se puede usar en nombres de clases y IDs como CSS, en nombres de archivos y URLs.
+                    </p>
+                  </div>
+                </div>
+              </div>
+          
+          </div>
+        </div>
+
+          <br>
+          <!--Ejemplo-->
+          <h3 class="fw-bold">Ejemplo:</h3>
+          <li class="punto">camelCase: Variables, constantes, funciones y metodos.</li>
+          <li class="punto">PascalCase: Para clases.</li>
+          <img src="../img/ejemplo-nomenclatura.png" class="img1 d-block mx-auto">
+          
+        <!--Eviar colisiones y claridad de código-->
+      <br>
+      <h2 class="fw-bold">Evitar colisiones y mantener la claridad del código</h2>
+        <p>Usar nombres claros y descriptivos para las variables en CSS y JS ayuda a que el código sea más ordenado,
+           fácil de entender y mantener. Además, seguir una convención adecuada mejora el trabajo en equipo,
+          especialmente en proyectos grandes.
+        </p>
+        
+        <!--Namespacing card-->
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text"><b>Namespacing:</b> 
+              Ayuda a evitar colisiones de nombres al prefijar las variables con
+              un identificador como <code>system-</code> o <code>project-</code>, pudiendo identificar claramente el origen
+              y evitando conflictos en el código.
+            </p>
+          </div>
+        </div>
+        <br>
+        <!--Nombres descriptivos y basados en uso card-->
+        <div class="card">
+          <div class="card-body">
+            <p class="card-text"><b>Nombres descriptivos y basados en uso:</b> 
+              
+            </p>
+          </div>
+        </div>
+          
     </main>
 
     <footer>
-
+      <h2 class="fw-bold">Anexos Bibliográficos</h2>
+      <a href="https://www.aluracursos.com/blog/convenciones-de-nomenclatura-camel-pascal-kebab-snake-case">Convenciones de nomenclatura</a>
+      <br>
+      <a href="https://genuinocloud.com/blog/nombres-descriptivos-para-variables-css-mejores-practicas/">Nombres descriptivos para variables CSS: mejores prácticas</a>
+      <br>
+      <a href="https://es.linkedin.com/advice/1/how-can-you-balance-code-clarity-speed-08qbc?lang=es&lang=es">¿Cómo se puede equilibrar la claridad y la velocidad del código para un desarrollo eficiente?</a>
     </footer>
 
 </body>

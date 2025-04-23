@@ -1,0 +1,29 @@
+.card-title{
+    font-size: 22px;
+}
+
+.card-text{
+    font-size: 18px;
+}
+
+.recuadro{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+code{
+    color: rgb(255, 0, 0);
+}
+
+.img1{
+    width: 50%;
+}
+
+.punto{
+    font-size: 20px;
+}
+
+b{
+    font-size: 22px;
+}
