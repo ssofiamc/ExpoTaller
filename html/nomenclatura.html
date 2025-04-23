@@ -169,28 +169,60 @@
           especialmente en proyectos grandes.
         </p>
         
-        <!--Namespacing card-->
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text"><b>Namespacing:</b> 
-              Ayuda a evitar colisiones de nombres al prefijar las variables con
-              un identificador como <code>system-</code> o <code>project-</code>, pudiendo identificar claramente el origen
-              y evitando conflictos en el código.
-            </p>
-          </div>
-        </div>
-        <br>
-        <!--Nombres descriptivos y basados en uso card-->
-        <div class="card">
-          <div class="card-body">
-            <p class="card-text"><b>Nombres descriptivos y basados en uso:</b> 
-              
-            </p>
-          </div>
-        </div>
-          
-    </main>
 
+        <!--Cards horizontal-->
+        <div class="container mt-4">
+          <div class="row">
+            <!--Namespacing card-->
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="../img/namespacing.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Namespacing:</b> 
+                    Ayuda a evitar colisiones de nombres al prefijar las variables con
+                    un identificador como <code>system-</code> o <code>project-</code>, pudiendo identificar claramente el origen
+                    y evitando conflictos en el código.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Nombres descriptivos y basados en uso card-->
+            <div class="col-md-4">
+              <div class="card" style="width: 22rem;">
+                <img src="../img/nombres-descriptivos.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Nombres descriptivos y basados en uso:</b> 
+                    Otra forma de nombrar variables en CSS es dividirlas en dos tipos: las que describen un valor fijo, como
+                    <code>–color-skyBlue</code>, y las que indican el uso, como <code>–color-accent</code>, 
+                    permiten mayor flexibilidad según el contexto en el que se usen.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!--Nombres descriptivos y basados en uso card-->
+            <div class="col-md-4">
+              <div class="card" style="width: 20rem;">
+                <img src="../img/Tipificacion.png" class="card-img-top">
+                <div class="card-body">
+                  <p class="card-text">
+                    <b>Tipificación de valores:</b> 
+                    Incluir el tipo de valor de valor en el nombre de la variable, como <code>–fontSize-large</code> o 
+                    <code>–color-primary</code>, ayuda a identificar rápidamente qué tipo de valor representa.
+                    Esto hace el código más claro y reduce errores, como confundir un color con un tamaño de fuente. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>  
+    </main>
+    <br>
+    <br>
     <footer>
       <h2 class="fw-bold">Anexos Bibliográficos</h2>
       <a href="https://www.aluracursos.com/blog/convenciones-de-nomenclatura-camel-pascal-kebab-snake-case">Convenciones de nomenclatura</a>
