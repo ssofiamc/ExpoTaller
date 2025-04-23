@@ -11,6 +11,7 @@
     <!--LINK CSS-->
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../css/nomenclatura.css">
 
     <title>Responsive</title>
 </head>
@@ -37,13 +38,172 @@
           </div>
     </header>
 
-    <!--contenido-->
+    <!--Contenido-->
     <main>
-        <p>Texto...</p>
-    </main>
+        <h2 class="fw-bold">¿Qué es?</h2>
+        <p>Es una técnica de diseño web que permite que una página se adapte automáticamente al tamaño y tipo de 
+            dispositivo, mejorando la experiencia de usuario, desde el que se visualiza: 
+            , tablets, laptops, pantallas grandes, etc.
+        </p>
+        <br>
+
+        <!--Contenido Principios del Responsive Design-->
+        <h2 class="fw-bold">Principios del Responsive Design</h2>
+
+            <!--Cards principios-->
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-3 g-3">
+              
+                <!--Card1-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Responsive y adaptative</h5>
+                    <p class="card-text">El diseño responsivo se adapta a cualquier tamaño de pantalla, 
+                        mientras que el adaptativo tiene un número fijo de tamaños predefinidos.</p>
+                  </div>
+                </div>
+              </div>
+
+               <!--Card2-->
+               <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Unidades relativas y estáticas</h5>
+                    <p class="card-text">Es importante utilizar unidades relativas como % o em en lugar de px, 
+                        para que el diseño se ajuste a diferentes tamaños de pantalla.</p> 
+                  </div>
+                </div>
+              </div>
+
+              <!--Card3-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Máximos</h5>
+                    <p class="card-text">Para que el diseño de la página tenga la capacidad 
+                        de ampliarse o reducirse es recomendable establecer un tamaño máximo y 
+                        mínimo en los elementos, usando propiedades como <b>min-width</b> y <b>max-width</b></p> 
+                  </div>
+                </div>
+              </div>
+
+              <!--Card4-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Flujo y estático</h5>
+                    <p class="card-text">El flujo es el comportamiento natural de los elementos en la página, 
+                        mientras que el estático es el comportamiento fijo de los elementos.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!--Card5-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Breakpoints</h5>
+                    <p class="card-text">Los breakpoints son puntos de quiebre en el diseño donde se aplican diferentes estilos CSS 
+                        para adaptarse a diferentes tamaños de pantalla. Se utilizan <b>media queries</b> para definir estos puntos.</p>
+                    </p> 
+                    </p>
+                  </div>
+                </div>
+              </div><!--Card5-->
+              <div class="col">
+                
+              </div>
+              </div>
+            <br>
+
+            <!--Contenido CSS Moderno en Responsive Design-->
+            <h2 class="fw-bold">CSS Moderno en Responsive Design</h2>
+            <p>El CSS moderno ofrece herramientas como Flexbox y Grid Layout que facilitan la creación de diseños responsivos, 
+                estas herramientas permiten alinear y distribuir elementos de manera eficiente, adaptándose a diferentes tamaños de pantalla.</p>
+             <!--Cards CSS-->
+        <div class="container mt-5">
+            <div class="row row-cols-1 row-cols-md-2 g-2">
+              
+                <!--Card1-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Flexbox</h5>
+                    <p class="card-text">Ideal para diseños unidimensionales (una fila o columna). <br>
+                        <b>Propiedades clave:</b> display: flex, justify-content, align-items.
+                        <br> <b>Ejemplo:</b><br> display: flex; <br> flex-direction: row; <br> justify-content: center; <br>
+                        align-items: center; <br> flex-wrap: wrap; <br> gap: 10px; <br> Se ajusta al 50% del ancho de la pantalla y al 100% de la altura de la pantalla.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+               <!--Card2-->
+               <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">CSS Grid</h5>
+                    <p class="card-text">Para diseños bidimensionales más complejos. <br>
+                        <b>Propiedades clave:</b> display: grid, grid-template-columns, gap, auto-fit, minmax()..
+                        <br> <b>Ejemplo:</b><br> display: grid; <br> grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); <br>
+                        gap: 10px; <br> Se ajusta al 50% del ancho de la pantalla y al 100% de la altura de la pantalla.
+                    </p> 
+                  </div>
+                </div>
+              </div>
+
+              <!--Card3-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Media Queries</h5>
+                    <p class="card-text">
+                        Permiten aplicar estilos CSS específicos según el tamaño de la pantalla. <br>
+                        <b>Ejemplo:</b><br> @media (max-width: 600px) { ... } <br>
+                        Se aplican estilos solo si el ancho de la pantalla es menor a 600px.
+                    </p> 
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!--Card4-->
+              <div class="col">
+                <div class="card h-100 shadow">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">Unidades avanzadas</h5>
+                    <p class="card-text">
+                        Utiliza unidades como <b>vw</b> (viewport width) y <b>vh</b> (viewport height) para un diseño más fluido. <br>
+                        <b>Ejemplo:</b><br> width: 50vw
+                        <br> height: 100vh <br>
+                        Se ajusta al 50% del ancho de la pantalla y al 100% de la altura de la pantalla.</p>
+                    </p> 
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br>
+
+            <!--Contenido Recomendaciones del Responsive Design-->
+            <h2 class="fw-bold">Recomendaciones</h2>
+                <li>Utilizar un diseño fluido y flexible, evitando el uso de unidades fijas como px.</li>
+                <li>Usar imágenes y videos responsivos que se adapten al tamaño de la pantalla.</li>
+                <li>Probar el diseño en diferentes dispositivos y navegadores para asegurar la compatibilidad.</li>
+                <li>Aprovecha las herramientas modernas de CSS como Flexbox y Grid Layout para crear diseños responsivos y adaptativos.</li>
+                <li>Tener en cuenta el media queries para aplicar estilos específicos según el tamaño de la pantalla.</li> 
+                <br>
+        </main>
 
     <footer>
-        
+        <h2 class="fw-bold">Anexos Bibliográficos</h2>
+        <a href="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design">Responsive Design</a>
+        <br>
+        <a href="https://lenguajecss.com/css/responsive-web-design/que-es/#responsive-vs-adaptative">Principios del Responsive Design</a>
+        <br>
+        <a href="https://www.w3schools.com/css/css_rwd_viewport.asp">Reglas de uso del Responsive Design</a>
+      
     </footer>
 
 </body>
